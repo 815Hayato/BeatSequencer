@@ -1,0 +1,80 @@
+【commands(on CUI)】
+project--> ExampleSong
+measure--> /1:4@135
+
+【commands(on GUI)】
+[1]
+load background as bg
+load timer as ti
+load boiling as bo
+load dan as da
+load switch as sw
+load stick as st
+load frypan as fr
+load cup as cu
+load plate as pl
+load gatan as gt
+load yo as yo
+
+[2]
+write /1:4 as bg
+write /01:3/1 as ti
+write /01:3/1 as bo
+write /1/04:3/4:3/1/2 as da
+write /01/^1/01/^1 as sw
+write /02/2/02/2/02/2/02/2 as st
+write /02/2/04/4/04/4/04:3/4/02/2 as fr
+write /02/2/04/4/04/4 as cu
+write /01:2/02/2/04/4/04/4 as pl
+write /01:3/^1 as gt
+write /01/^1/01:2 as yo
+
+[3]
+set bg by bg,bg
+set ti by ti,ti
+set bo by bo,bo
+set da by da,da
+set sw by sw,sw
+set st by st,st
+set fr by fr,fr
+set cu by cu,cu
+set pl by pl,pl
+set gt by gt,gt
+set yo by yo,yo
+
+[4]
+add bg,ti,bo
+
+[5]
+play
+
+[6]
+add da
+
+[7]
+add sw
+
+[8]
+add st
+
+[9]
+add fr
+
+[10]
+add gt,yo
+
+[11]
+add cu.pl
+
+[12]
+omit cu,pl,yo,fr,st
+
+[13]
+omit da,sw
+
+[14]
+halt
+
+[15]
+quit
+
