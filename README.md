@@ -15,7 +15,9 @@ Python
 4. GUI(自作)で操作する
 
 ## 使用例
-ExampleSong_command.txtに書いているテキスト通りにBeatSequencer.pyを動かした様子をExampleSong.mp4で確認できます。ExampleSong_musicフォルダには、演奏時に生成した音声データをフェイズごとに記録して格納しています(Phase1~9.wav)
+ExampleSong_command.txtに書いているテキスト通りにBeatSequencer.pyを動かした様子をExampleSong.mp4で確認できます。ExampleSong_musicフォルダには、演奏時に生成した音声データをフェイズごとに記録して格納しています(Phase1~9.wav)  
+ExampleSongについては、以下のリンクからも試聴することができます  
+https://drive.google.com/file/d/1n6YOIXDcE35ZnbUB7-P-yepJi1AwnZEm/view?usp=sharing  
 
 ## 使い方
 1. Soundsフォルダに、使用したい音源のwavファイル(ステレオ、44100Hz)を格納する
